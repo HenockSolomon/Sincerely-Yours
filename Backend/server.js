@@ -17,7 +17,7 @@ await mongoose.connect('mongodb+srv://henockso111:Thomasso111@cluster0.gtqjpet.m
     } catch (console) {
         console.log(error)
     }
-})();
+})();   
 
 app.get('/', function  (req, res) {
     try {
